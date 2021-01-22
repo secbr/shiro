@@ -41,13 +41,11 @@ public class AuthenticationTest {
         subject.login(token);
 
         // subject.isAuthenticated()方法返回一个boolean值,用于判断用户是否认证成功
-        // 输出true
         System.out.println("isAuthenticated:" + subject.isAuthenticated());
 
         // 登出
         subject.logout();
 
-        // 输出false
         System.out.println("isAuthenticated:" + subject.isAuthenticated());
     }
 }
