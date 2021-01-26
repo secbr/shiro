@@ -6,11 +6,12 @@
 
 - [《01.Shiro原理、架构、组件介绍》](./article/01.Shiro原理、架构、组件介绍.md)
 - [《02.Shiro认证与授权原理分析》](./article/02.Shiro认证与授权原理分析.md)
+- [《03.Shiro身份认证之principals和credentials》](./article/03.Shiro身份认证之principals和credentials.md)
+- [《shiro触发doGetAuthorizationInfo方法的几种方式》](./article/shiro触发doGetAuthorizationInfo方法的几种方式.md)
 
 ## 其他内容
 
 - [《绕过授权高危漏洞升级（至1.6.0）》](./other/绕过授权高危漏洞升级.md)
-
 
 
 ## 关注&技术交流
