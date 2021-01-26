@@ -35,3 +35,10 @@ subject.isPermitted(“admin”);
                        
 
 
+## 关注&技术交流
+
+Shiro相关文章正在个人公众号"**程序新视界**"持续更新中，为确保获得最新文章，可关注公众号。后期会将Shiro相关文章整理成电子版，在公众号内免费分享给大家。
+
+![程序新视界](https://www.choupangxia.com/wp-content/uploads/2019/07/weixin.jpg)
+
+如有技术交流，也可添加个人微信进行交流：541075754。
