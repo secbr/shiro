@@ -8,6 +8,7 @@
 - [《02.Shiro认证与授权原理分析》](./article/02.Shiro认证与授权原理分析.md)
 - [《03.Shiro身份认证之principals和credentials》](./article/03.Shiro身份认证之principals和credentials.md)
 - [《shiro触发doGetAuthorizationInfo方法的几种方式》](./article/shiro触发doGetAuthorizationInfo方法的几种方式.md)
+- [《Shiro中@RequiresRoles使用.md》](./article/Shiro中@RequiresRoles使用.md)
 
 ## 其他内容
 

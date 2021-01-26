@@ -38,12 +38,14 @@ public class MyRealm extends AuthorizingRealm {
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         String userName = (String) principalCollection.getPrimaryPrincipal();
-        // 从数据库获取角色和权限数据
-        Set<String> roles = getRolesByUserName(userName);
-        Set<String> permissions = getPermissionsByUserName(userName);
 
         SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
+        // 从数据库获取权限数据
+        Set<String> permissions = getPermissionsByUserName(userName);
         simpleAuthorizationInfo.setStringPermissions(permissions);
+
+        // 从数据库获取角色
+        Set<String> roles = getRolesByUserName(userName);
         simpleAuthorizationInfo.setRoles(roles);
         return simpleAuthorizationInfo;
     }
