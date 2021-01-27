@@ -9,6 +9,7 @@
 - [《03.Shiro身份认证之principals和credentials》](./article/03.Shiro身份认证之principals和credentials.md)
 - [《shiro触发doGetAuthorizationInfo方法的几种方式》](./article/shiro触发doGetAuthorizationInfo方法的几种方式.md)
 - [《Shiro中@RequiresRoles使用》](./article/Shiro中@RequiresRoles使用.md)
+- [《Shiro之自定义Principal和Realm》](./article/Shiro之自定义Principal和Realm.md)
 
 ## 其他内容
 
