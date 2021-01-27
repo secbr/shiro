@@ -100,7 +100,7 @@ public void testAuthentication() {
 ```
 执行单元测试，会发现通过Subject可以获得到在Realm中存储的信息，并且对传入的参数进行了校验。当换一个新的用户名密码之后，在此执行，会抛出异常。
 
-上述实例完整代码：https://github.com/secbr/shiro/blob/main/shiro-demo1/src/main/java/com/choupangxia/principal/PrincipalTest.java
+上述实例完整代码：见PrincipalTest类。
 
 ## 关注&技术交流
 
