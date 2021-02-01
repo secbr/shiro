@@ -3,8 +3,14 @@ package com.choupangxia.principal;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.mgt.DefaultSecurityManager;
+import org.apache.shiro.realm.Realm;
 import org.apache.shiro.subject.Subject;
 import org.junit.Test;
+
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * 测试自定义Principal
@@ -24,6 +30,11 @@ public class PrincipalTest {
         // 1.构建SecurityManager环境
         DefaultSecurityManager defaultSecurityManager = new DefaultSecurityManager();
         defaultSecurityManager.setRealm(principalRealm);
+
+        // 设置多个Realm
+        /*Set<Realm> realms = new LinkedHashSet<>();
+        realms.add(principalRealm);
+        defaultSecurityManager.setRealms(realms);*/
 
         // 2.主体提交认证请求
         // 设置SecurityManager环境
